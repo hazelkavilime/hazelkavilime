@@ -16,9 +16,15 @@ jobs:
         with:
           node-version: '10.x'
 
+      - name: install gatsby
+        run: npm install -g gatsby-cli
+
+      - name: yarn?
+        run: yarn --version
+
       - name: install
         run: npm install
-
+      
       - name: build
         run: npm run build
 
