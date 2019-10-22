@@ -16,6 +16,9 @@ jobs:
         with:
           node-version: '10.x'
 
+      - name: install libvips
+        run: sudo apt install libvips
+
       - name: install gatsby
         run: npm install -g gatsby-cli
 
