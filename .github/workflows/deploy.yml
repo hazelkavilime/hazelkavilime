@@ -19,14 +19,11 @@ jobs:
       - name: install gatsby
         run: npm install -g gatsby-cli
 
-      - name: yarn?
-        run: yarn --version
-
       - name: install
-        run: npm install
+        run: yarn
       
       - name: build
-        run: npm run build
+        run: yarn run build
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v2.3.2
