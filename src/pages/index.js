@@ -5,60 +5,58 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
-```MARKDOWN
-# GÜLBEN ŞAŞ
+// # GÜLBEN ŞAŞ
 
-## ABOUT - PORTFOLIO - CONTACT
+// ## ABOUT - PORTFOLIO - CONTACT
 
-Örnek: http://www.nazlioluz.com/
+// Örnek: http://www.nazlioluz.com/
 
-(KÜÇÜK Bİ GÖRSEL ÜSTÜ - dur arıyorum)
-DIGITAL COMMUNICATIONS & CREATIVE WRITING
+// (KÜÇÜK Bİ GÖRSEL ÜSTÜ - dur arıyorum)
+// DIGITAL COMMUNICATIONS & CREATIVE WRITING
 
-## who am i?
+// ## who am i?
 
-my name is Gülben. following my love and award-winning talent for writing, i’ve studied English Translation and Interpretation in Ankara Hacettepe University to be able to achieve the same in English. currently I’m a freelance writer with 8 years of marketing communications experience in several global companies and startups. 
+// my name is Gülben. following my love and award-winning talent for writing, i’ve studied English Translation and Interpretation in Ankara Hacettepe University to be able to achieve the same in English. currently I’m a freelance writer with 8 years of marketing communications experience in several global companies and startups. 
 
-# what i can do for you?
+// # what i can do for you?
 
-English and Turkish Social Media Management ikon: https://fontawesome.com/icons/pencil-alt?style=solid
-English and Turkish Copywriting 
-https://fontawesome.com/icons/pen-alt?style=solid
-Digital Communications Strategy Planning
-ikon: https://fontawesome.com/icons/pen-fancy?style=solid
+// English and Turkish Social Media Management ikon: https://fontawesome.com/icons/pencil-alt?style=solid
+// English and Turkish Copywriting 
+// https://fontawesome.com/icons/pen-alt?style=solid
+// Digital Communications Strategy Planning
+// ikon: https://fontawesome.com/icons/pen-fancy?style=solid
 
-what have i done so far? (Portfolio’yu tıklayınca buraya inecek)
-
-
-- THESOUL PUBLISHING
-  - Freelance English Author
+// what have i done so far? (Portfolio’yu tıklayınca buraya inecek)
 
 
-- BUCKETLIST 
-  - Digital Communication Strategist
-  - Freelance English and Turkish Copywriter
-
-- GLORY.BE.BOOM 
-  - Freelance Copywriter 
-
-- CAREEM
-  - Marketing Manager
-
-- BLABLACAR
-  - Social Media And MarCom Manager
-
-- TURKISH AIRLINES
-  - Social Media Manager
+// - THESOUL PUBLISHING
+//   - Freelance English Author
 
 
-- FOX INTERNATIONAL CHANNELS
-  - Social Media Manager
+// - BUCKETLIST 
+//   - Digital Communication Strategist
+//   - Freelance English and Turkish Copywriter
+
+// - GLORY.BE.BOOM 
+//   - Freelance Copywriter 
+
+// - CAREEM
+//   - Marketing Manager
+
+// - BLABLACAR
+//   - Social Media And MarCom Manager
+
+// - TURKISH AIRLINES
+//   - Social Media Manager
 
 
-how can you reach me? (contact tıklanınca buraya)
+// - FOX INTERNATIONAL CHANNELS
+//   - Social Media Manager
 
-you can e-mail me at gulbensas@gmail.com for inquiries. 
-```
+
+// how can you reach me? (contact tıklanınca buraya)
+
+// you can e-mail me at gulbensas@gmail.com for inquiries. 
 
 const IndexPage = () => (
   <Layout>
