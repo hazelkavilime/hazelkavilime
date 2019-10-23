@@ -27,6 +27,18 @@ summary {
     display: block;
 }
 
+nav {
+    margin-top: 2rem;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    padding-right: 1rem;
+}
+
 audio,
 canvas,
 progress,
