@@ -42,4 +42,4 @@ jobs:
       - name: Audit live URL
         uses: jakejarvis/lighthouse-action@master
         with:
-          url: 'https://gulbensascom.github.io/gulbensascom'
+          url: 'http://gulbensas.com'
