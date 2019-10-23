@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle, menuLinks }) => (
+const Header = ({ siteTitle, siteSubtitle, menuLinks }) => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -27,6 +27,7 @@ const Header = ({ siteTitle, menuLinks }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h4 style={{ marginTop: 6 }}>{siteSubtitle}</h4>
       <div>
         <nav>
           <ul style={{ display: "flex", flex: 1 }}>
@@ -51,10 +52,13 @@ const Header = ({ siteTitle, menuLinks }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  siteSubtitle: PropTypes.string,
+  menuLinks: PropTypes.array,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  siteSubtitle: ``,
 }
 
 export default Header
