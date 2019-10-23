@@ -18,6 +18,10 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          menuLinks {
+            name
+            link
+          }
         }
       }
     }
@@ -25,19 +29,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header
+        siteTitle={data.site.siteMetadata.title}
+        menuLinks={data.site.siteMetadata.menuLinks}
+      />
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
+          justifyContent: "start",
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Gülben Şaş
-        </footer>
+        <footer>© {new Date().getFullYear()}, Gülben Şaş</footer>
       </div>
     </>
   )

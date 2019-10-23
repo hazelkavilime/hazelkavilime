@@ -1,6 +1,20 @@
-module.exports = {
+const remarkImagesPlugin = (module.exports = {
   siteMetadata: {
     title: `Gülben Şaş`,
+    menuLinks: [
+      {
+        name: "ABOUT",
+        link: "/",
+      },
+      {
+        name: "PORTFOLIO",
+        link: "/portfolio",
+      },
+      {
+        name: "CONTACT",
+        link: "/contact",
+      },
+    ],
     description: `Gülben Şaş`,
     author: `Eralp Karaduman <eralp@eralpkaraduman.com>`,
   },
@@ -15,35 +29,30 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `gatsby-starter-default`,
-    //     short_name: `starter`,
-    //     start_url: `/`,
-    //     background_color: `#663399`,
-    //     theme_color: `#663399`,
-    //     display: `minimal-ui`,
-    //     icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-    //   },
-    // },
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        extensions: [".mdx", ".md"],
         defaultLayouts: {
           default: require.resolve(`./src/components/layout.js`),
         },
-      }
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 100,
+              backgroundColor: "none",
+              linkImagesToOriginal: false,
+              sizeByPixelDensity: true,
+              backgroundColor: "none",
+              loading: "eager",
+              wrapperStyle:
+                "margin-left: 0!important; margin-right: 0!important;",
+            },
+          },
+        ],
+      },
     },
-    // {
-    //   resolve: `gatsby-plugin-page-creator`,
-    //   options: {
-    //     path: `${__dirname}/src/pages`,
-    //   },
-    // },
-    
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
-}
+})
