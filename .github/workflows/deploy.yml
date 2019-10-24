@@ -34,12 +34,3 @@ jobs:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
-
-  audit:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Audit live URL
-        uses: jakejarvis/lighthouse-action@master
-        with:
-          url: "https://gulbensas.com"
