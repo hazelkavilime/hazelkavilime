@@ -1,6 +1,6 @@
 const remarkImagesPlugin = (module.exports = {
   siteMetadata: {
-    title: `Gülben Şaş`,
+    title: `Hazel Kavili`,
     subtitle: "DIGITAL COMMUNICATIONS & CREATIVE WRITING",
     menuLinks: [
       {
@@ -16,7 +16,7 @@ const remarkImagesPlugin = (module.exports = {
         link: "/contact",
       },
     ],
-    description: `Gülben Şaş`,
+    description: `Hazel Kavili`,
     author: `Eralp Karaduman <eralp@eralpkaraduman.com>`,
   },
   plugins: [
