@@ -1,7 +1,7 @@
 const remarkImagesPlugin = (module.exports = {
   siteMetadata: {
     title: `Hazel Kavili`,
-    subtitle: "DIGITAL COMMUNICATIONS & CREATIVE WRITING",
+    subtitle: "Accio data!",
     menuLinks: [
       {
         name: "ABOUT",
