@@ -5,4 +5,5 @@
   - Site title
   - Description
   - Etc.
+  - Change header color from [here](https://github.com/hazelkavilime/hazelkavilime/blob/master/src/components/header.js#L8)
 - [MARKDOWN REFERENCE](https://www.markdownguide.org/basic-syntax)
