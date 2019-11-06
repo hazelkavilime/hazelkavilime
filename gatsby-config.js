@@ -1,4 +1,5 @@
-const remarkImagesPlugin = (module.exports = {
+module.exports = {
+  pathPrefix: "/hazelkavilime", // Delete this once domain is routed to gh pages
   siteMetadata: {
     title: `Hazel Kavili`,
     subtitle: "Accio data!",
@@ -56,4 +57,4 @@ const remarkImagesPlugin = (module.exports = {
       },
     },
   ],
-})
+}
